@@ -49,7 +49,7 @@ def preprocess(img: Image.Image) -> np.ndarray:
 model = load_model()
 
 st.title("👕 Klasifikasi Pakaian dengan CNN")
-st.write("Unggah atau potret satu barang fesyen. Model mengenali 10 kategori "
+st.write("Unggah atau potret satu barang. Model mengenali 10 kategori (T-shirt/top, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, Ankle boot)"
          "dari dataset Fashion-MNIST.")
 
 with st.expander("Tips agar prediksi akurat"):
