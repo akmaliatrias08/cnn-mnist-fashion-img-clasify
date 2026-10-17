@@ -18,11 +18,11 @@ Preprocessing di `app.py` harus sama persis dengan yang dipakai saat training di
 |------|--------|
 | `app.py` | Aplikasi Streamlit |
 | `requirements.txt` | Daftar dependensi |
-| `fashion_cnn.keras` | Model hasil training (**harus kamu siapkan sendiri**) |
+| `fashion_cnn.keras` | Model hasil training dari [notebook Colab](https://colab.research.google.com/drive/1wEozPOePwTt9zdGYE0tTRJw7SOs0ZF2f?usp=sharing) (**harus diunduh dan ditaruh di folder ini**) |
 
 ## Cara menjalankan
 
-1. Taruh `fashion_cnn.keras` di folder ini. Buat dengan `model.save("fashion_cnn.keras")` setelah training.
+1. Taruh `fashion_cnn.keras` di folder ini. Buat modelnya lewat [notebook Google Colab](https://colab.research.google.com/drive/1wEozPOePwTt9zdGYE0tTRJw7SOs0ZF2f?usp=sharing), lalu unduh file `fashion_cnn.keras` hasilnya.
 2. Buat dan aktifkan virtual environment:
    ```bash
    python3 -m venv .venv
